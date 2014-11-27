@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/todo_exe.dir/main.cc.o CMakeFiles/todo_exe.dir/todo.cc.o  -o todo_exe -rdynamic 

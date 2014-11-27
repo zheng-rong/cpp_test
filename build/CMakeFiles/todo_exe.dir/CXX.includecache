@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arkin/cpp/test/main.cc
+iostream
+-
+string
+-
+todo.h
+/home/arkin/cpp/test/todo.h
+
+/home/arkin/cpp/test/todo.h
+iostream
+-
+string
+-
+vector
+-
+
