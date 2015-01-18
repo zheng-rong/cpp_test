@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arkin/cpp/test
+CMAKE_SOURCE_DIR = /home/arkin/github/cpp_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arkin/cpp/test/build
+CMAKE_BINARY_DIR = /home/arkin/github/cpp_test/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/todo_exe.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/arkin/cpp/test/build
 CMakeFiles/todo_exe.dir/all:
 	$(MAKE) -f CMakeFiles/todo_exe.dir/build.make CMakeFiles/todo_exe.dir/depend
 	$(MAKE) -f CMakeFiles/todo_exe.dir/build.make CMakeFiles/todo_exe.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/arkin/cpp/test/build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/arkin/github/cpp_test/build/CMakeFiles  1 2
 	@echo "Built target todo_exe"
 .PHONY : CMakeFiles/todo_exe.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/todo_exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/todo_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arkin/cpp/test/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arkin/github/cpp_test/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/todo_exe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arkin/cpp/test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arkin/github/cpp_test/build/CMakeFiles 0
 .PHONY : CMakeFiles/todo_exe.dir/rule
 
 # Convenience name for target.

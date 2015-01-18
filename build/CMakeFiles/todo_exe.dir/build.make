@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arkin/cpp/test
+CMAKE_SOURCE_DIR = /home/arkin/github/cpp_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arkin/cpp/test/build
+CMAKE_BINARY_DIR = /home/arkin/github/cpp_test/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/todo_exe.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/todo_exe.dir/flags.make
 
 CMakeFiles/todo_exe.dir/main.cc.o: CMakeFiles/todo_exe.dir/flags.make
 CMakeFiles/todo_exe.dir/main.cc.o: ../main.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/arkin/cpp/test/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/arkin/github/cpp_test/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/todo_exe.dir/main.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/todo_exe.dir/main.cc.o -c /home/arkin/cpp/test/main.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/todo_exe.dir/main.cc.o -c /home/arkin/github/cpp_test/main.cc
 
 CMakeFiles/todo_exe.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/todo_exe.dir/main.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/arkin/cpp/test/main.cc > CMakeFiles/todo_exe.dir/main.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/arkin/github/cpp_test/main.cc > CMakeFiles/todo_exe.dir/main.cc.i
 
 CMakeFiles/todo_exe.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/todo_exe.dir/main.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/arkin/cpp/test/main.cc -o CMakeFiles/todo_exe.dir/main.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/arkin/github/cpp_test/main.cc -o CMakeFiles/todo_exe.dir/main.cc.s
 
 CMakeFiles/todo_exe.dir/main.cc.o.requires:
 .PHONY : CMakeFiles/todo_exe.dir/main.cc.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/todo_exe.dir/main.cc.o.provides.build: CMakeFiles/todo_exe.dir/main.c
 
 CMakeFiles/todo_exe.dir/todo.cc.o: CMakeFiles/todo_exe.dir/flags.make
 CMakeFiles/todo_exe.dir/todo.cc.o: ../todo.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/arkin/cpp/test/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/arkin/github/cpp_test/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/todo_exe.dir/todo.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/todo_exe.dir/todo.cc.o -c /home/arkin/cpp/test/todo.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/todo_exe.dir/todo.cc.o -c /home/arkin/github/cpp_test/todo.cc
 
 CMakeFiles/todo_exe.dir/todo.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/todo_exe.dir/todo.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/arkin/cpp/test/todo.cc > CMakeFiles/todo_exe.dir/todo.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/arkin/github/cpp_test/todo.cc > CMakeFiles/todo_exe.dir/todo.cc.i
 
 CMakeFiles/todo_exe.dir/todo.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/todo_exe.dir/todo.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/arkin/cpp/test/todo.cc -o CMakeFiles/todo_exe.dir/todo.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/arkin/github/cpp_test/todo.cc -o CMakeFiles/todo_exe.dir/todo.cc.s
 
 CMakeFiles/todo_exe.dir/todo.cc.o.requires:
 .PHONY : CMakeFiles/todo_exe.dir/todo.cc.o.requires
@@ -123,6 +123,6 @@ CMakeFiles/todo_exe.dir/clean:
 .PHONY : CMakeFiles/todo_exe.dir/clean
 
 CMakeFiles/todo_exe.dir/depend:
-	cd /home/arkin/cpp/test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arkin/cpp/test /home/arkin/cpp/test /home/arkin/cpp/test/build /home/arkin/cpp/test/build /home/arkin/cpp/test/build/CMakeFiles/todo_exe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arkin/github/cpp_test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arkin/github/cpp_test /home/arkin/github/cpp_test /home/arkin/github/cpp_test/build /home/arkin/github/cpp_test/build /home/arkin/github/cpp_test/build/CMakeFiles/todo_exe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/todo_exe.dir/depend
 

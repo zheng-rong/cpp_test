@@ -4,8 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/arkin/cpp/test/main.cc" "/home/arkin/cpp/test/build/CMakeFiles/todo_exe.dir/main.cc.o"
-  "/home/arkin/cpp/test/todo.cc" "/home/arkin/cpp/test/build/CMakeFiles/todo_exe.dir/todo.cc.o"
+  "/home/arkin/github/cpp_test/main.cc" "/home/arkin/github/cpp_test/build/CMakeFiles/todo_exe.dir/main.cc.o"
+  "/home/arkin/github/cpp_test/todo.cc" "/home/arkin/github/cpp_test/build/CMakeFiles/todo_exe.dir/todo.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

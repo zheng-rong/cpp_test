@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/arkin/cpp/test/main.cc
+/home/arkin/github/cpp_test/main.cc
 iostream
 -
 string
 -
+map
+-
+vector
+-
 todo.h
-/home/arkin/cpp/test/todo.h
+/home/arkin/github/cpp_test/todo.h
 
-/home/arkin/cpp/test/todo.h
+/home/arkin/github/cpp_test/todo.h
 iostream
 -
 string
